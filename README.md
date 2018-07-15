@@ -7,7 +7,8 @@ Troubleshooting notes for mcord-in-a-box using Kubernetes on Ubuntu 16.04
 
 2. If any libvirt POD crashes, please stop libvirtd service on host:
 
-<code>$ sudo systemctl stop libvirtd.service\n$ sudo systemctl disable libvirtd.service</code>
+<code>$ sudo systemctl stop libvirtd.service
+$ sudo systemctl disable libvirtd.service</code>
 
 3. If libvirt logs the below permission error:
 
